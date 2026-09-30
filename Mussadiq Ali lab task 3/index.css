@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f1eaea;
+    margin: 0;
+    padding: 40px;
+}
+
+.new-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+
+.card {
+    width: 400px;
+    padding: 25px;
+    margin: 50px auto;
+    border: 2px solid #333;
+    background-color: white;
+    position: relative;
+    border-radius: 10px;
+}
+.head {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.head img {
+    width: 100px;
+    height: 100px;
+}
+
+.contact-button {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    padding: 12px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+    .card {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    body {
+        padding: 15px;
+    }
+}
+
+
